@@ -1,0 +1,20 @@
+.error-page {
+    background-color: #fff;
+    margin-bottom: -62px;
+}
+
+.error-page-container {
+    padding: 150px 0;
+}
+
+.error-page-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.error-page-text {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 16px;
+    color: #999;
+}

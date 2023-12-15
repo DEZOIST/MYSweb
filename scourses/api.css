@@ -1,0 +1,269 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #8c9aeb;
+    color: #404040;
+    font-family: Microsoft YaHei, \\5FAE\8F6F\96C5\9ED1, miui, Helvetica, Arial, sans-serif;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none
+}
+
+.w_100 {
+    width: 100%
+}
+
+.container {
+    position: relative;
+    background: #8c9aeb;
+}
+
+.pc-mainPage {
+    margin: 0 auto;
+    min-width: 1200px;
+    width: auto;
+    font-size: 12px
+}
+
+.pc-sidebar-container {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(50, 74, 151, .68);
+    width: 115px;
+    border-right: 1px solid hsla(0, 0%, 100%, .5);
+    z-index: 999
+}
+
+.sidebar-title {
+    font-weight: 700;
+    color: #c7ffff;
+    text-align: center;
+    flex: none;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+.pc-sidebar {
+    padding-top: 7px;
+    flex: 1;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+.pc-sidebar::-webkit-scrollbar {
+    display: none
+}
+
+.game-nav {
+    color: #c7ffff;
+    font-size: 14px
+}
+
+
+.game-nav img {
+    transition: transform .1s linear;
+}
+
+.game-nav:hover img {
+    transform: scale(1.1)
+}
+
+
+.game-nav:hover {
+    color: #fccbef
+}
+
+.game-logo {
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    display: inline-block;
+    margin-bottom: 10px
+}
+
+.game-name {
+    line-height: 18px;
+    height: 18px;
+}
+.sidebar-footer {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    left: 12px;
+    z-index: 1
+}
+
+.sidebar-feedback {
+    width: 70px;
+    height: 26px;
+    background: rgba(209, 217, 255, 0);
+    border: 1px solid #beffff;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, .1);
+    border-radius: 2px;
+    color: #a4fefe;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+.sidebar-feedback:hover {
+    color: #fccbef;
+    border-color: #fccbef
+}
+
+.pc-main {
+    height: 100%;
+    z-index: 9
+}
+
+.bbs-top-logo {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 11.04vw;
+    margin-left: 154px;
+    z-index: 3
+}
+
+.bbs-download-container {
+    padding: 5px 0
+}
+
+
+.bbs-qrcode-download-container {
+    position: fixed;
+    bottom: 10%;
+    left: 53%;
+    transform: translateX(-50%);
+    display: flex;
+    z-index: 3
+}
+
+.bbs-qrcode {
+    width: 168px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px
+}
+
+.bbs-download {
+    width: 215px;
+    height: 60px;
+    color: #f5fafe;
+    padding-left: 78px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.bbs-download:hover {
+    color: #71e2ff
+}
+
+.bbs-ios-download {
+    margin-bottom: 38px;
+    line-height: 60px;
+    background: url(./bbs-ios-download-2023.png) 100%/100% no-repeat
+}
+
+.bbs-ad-download {
+    padding-top: 10px;
+    line-height: inherit;
+    background: url(./bbs-ad-download-2023.png) 100%/100% no-repeat
+}
+
+.bbs-en-text {
+    font-size: 20px
+}
+
+.bbs-zh-text {
+    font-size: 18px
+}
+
+.bbs-version {
+    font-size: 14px;
+    font-weight: 500;
+    color: hsla(0, 0%, 91%, .73)
+}
+
+.bbs-qrcode img {
+    border-radius: 16px
+}
+
+.pc-sidebar a {
+    display: inline-block;
+    margin-bottom: 25px
+}
+
+.pc-sidebar a:last-child {
+    margin-bottom: 0
+}
+
+.sidebar-footer a {
+    display: inline-block
+}
+
+.bbs-rights {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    bottom: 30px;
+    text-align: right;
+    z-index: 10
+}
+
+
+.bbs-rights a {
+    color: #fff;
+    text-decoration: none
+}
+
+.bbs-rights p {
+    margin-right: 42px
+}
+
+
+.primary {
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer
+}
+
+
+.pc-btn-wrap {
+    position: absolute;
+    right: 0;
+    top: 51%;
+    width: 280px;
+    z-index: 2;
+    animation: circle1 .5s ease-out;
+    transition: all .6s
+}
+
+.pc-btn-wrap img {
+    cursor: pointer
+}
+
+.pc-btn-wrap:hover {
+    transform: scale(1.1) translateX(-14px);
+}

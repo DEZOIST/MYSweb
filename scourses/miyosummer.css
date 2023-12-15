@@ -1,0 +1,463 @@
+html,
+body,
+section,
+head,
+header,
+footer,
+content,
+main,
+aside,
+div,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ol,
+ul,
+li,
+a,
+img,
+nav,
+pre,
+span,
+i,
+em,
+input,
+textarea,
+button {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+input,
+button,
+textarea {
+    outline: 0
+}
+
+input:focus,
+video:focus {
+    outline: none
+}
+
+ul,
+ol,
+li {
+    list-style: none
+}
+
+input,
+textarea {
+    user-select: text
+}
+
+img,
+video {
+    display: block;
+    -webkit-user-drag: none
+}
+
+table {
+    border-spacing: 0
+}
+
+html,
+body {
+    font-size: 14px;
+    font-family: "Microsoft YaHei", "微软雅黑", Arial, sans-serif;
+    touch-action: manipulation;
+    user-select: none;
+    -webkit-touch-callout: none;
+    overscroll-behavior: none
+}
+
+html {
+    font-size: calc(250/27*1vh);
+}
+
+.img1 {
+    overflow: visible;
+    overflow-x: visible;
+    overflow-y: visible;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    left: 0;
+    z-index: 1;
+    bottom: 0;
+}
+
+.s1 {
+    background: center/cover no-repeat;
+    background-image: url(./1.png);
+    background-size: 100% auto;
+}
+
+.s2 {
+    background: center/cover no-repeat;
+    background-image: url(./2.png);
+    background-size: 100% auto;
+}
+
+.s3 {
+    background: center/cover no-repeat;
+    background-image: url(./3.png);
+    background-size: 100% auto;
+}
+
+.s4 {
+    background: center/cover no-repeat;
+    background-image: url(./4.png);
+    background-size: 100% auto;
+}
+
+.v1 {
+    cursor: pointer;
+    position: absolute;
+    width: 1.6rem;
+    height: 0.7rem;
+    left: 8.78rem;
+    top: 4.18rem;
+    display: inline-flex;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.img2:hover {
+    content: url(./222.png);
+}
+
+
+.img2-1 {
+    background: url(./2-1.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 2.41rem;
+    height: 0.92rem;
+    left: 1.81rem;
+    top: 2.96rem;
+}
+
+.img2-2 {
+    background: url(./2-2.png) center/cover no-repeat;
+    overflow: visible;
+    cursor: pointer;
+    position: absolute;
+    width: 10rem;
+    height: 5rem;
+    left: 4.61rem;
+    top: 2.58rem;
+}
+
+.img2-3 {
+    background: url(./2-3.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 4.5rem;
+    height: 0.6rem;
+    left: 4.24rem;
+    top: 7.37rem;
+}
+
+.img2-4 {
+    background: url(./2-4.png) center/cover no-repeat;
+    overflow: visible;
+    cursor: pointer;
+    position: absolute;
+    width: 2.28rem;
+    height: 0.49rem;
+    left: 12.33rem;
+    top: 7.58rem;
+}
+
+.img3-1 {
+    background: url(./3-1.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 2.41rem;
+    height: 0.9rem;
+    left: 1.81rem;
+    top: 3.37rem;
+}
+
+.img3-2 {
+    background: url(./3-2.png) center/cover no-repeat;
+    position: absolute;
+    overflow: visible;
+    width: 100%;
+    height: 100%;
+    width: 8.8rem;
+    height: 4.2rem;
+    left: 5.22rem;
+    top: 2.35rem;
+}
+
+.img3-3 {
+    background: url(./3-3.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 8.11rem;
+    height: 0.43rem;
+    left: 5.25rem;
+    top: 6.76rem;
+}
+
+.img3-4 {
+    background: url(./3-4.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 8.8rem;
+    height: 0.36rem;
+    left: 0.22rem;
+    top: 0;
+}
+
+.img3-5 {
+    background: url(./3-3.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 8.11rem;
+    height: 0.43rem;
+    left: 5.25rem;
+    top: 7.42rem;
+}
+
+
+.img3-7 {
+    background: url(./3-3.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 8.11rem;
+    height: 0.43rem;
+    left: 5.25rem;
+    top: 8.08rem;
+}
+
+.p-3 {
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 1.07rem;
+    top: 0rem;
+    font-size: 0.26rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    line-height: 1.3;
+}
+
+.img4-1 {
+    background: url(./4-1.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 2.41rem;
+    height: 0.89rem;
+    left: 1.81rem;
+    top: 2.93rem;
+}
+
+.img4-2 {
+    background: url(./4-2-1.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 1.18rem;
+    height: 0.34rem;
+    left: 4.63rem;
+    top: 2.11rem;
+}
+
+.img4-3 {
+    background: url(./4-3-2.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 1.18rem;
+    height: 0.34rem;
+    left: 6.59rem;
+    top: 2.11rem;
+}
+
+.img4-3:hover {
+    background: url(./4-3-1.png)center/cover no-repeat;
+    overflow: visible;
+    overflow: visible;
+    width: 1.18rem;
+    height: 0.34rem;
+}
+
+.img4-4 {
+    background: url(./4-4-2.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 1.18rem;
+    height: 0.34rem;
+    left: 8.52rem;
+    top: 2.11rem;
+}
+
+.img4-4:hover {
+    background: url(./4-4-1.png)center/cover no-repeat;
+    overflow: visible;
+    width: 1.18rem;
+    height: 0.34rem;
+}
+
+.pic4 {
+    position: absolute;
+    width: 11.39rem;
+    height: 4.9rem;
+    left: 4.61rem;
+    top: 2.92rem;
+    opacity: 1;
+    width: 3279px;
+    display: inline-block;
+}
+
+.img4-5 {
+    position: absolute;
+    width: 7.5rem;
+    height: 4.5rem;
+    left: 0.02rem;
+    top: 0rem;
+}
+
+.img4-5-1 {
+    background: url(./4-5-1.png) center center / cover no-repeat;
+    overflow: visible;
+    cursor: pointer;
+    position: absolute;
+    width: 7rem;
+    height: 0.4rem;
+    left: 0rem;
+    top: 4.5rem;
+}
+
+.img4-6 {
+    position: absolute;
+    width: 3.2rem;
+    height: 1.8rem;
+    left: 8.19rem;
+    top: 0rem;
+}
+
+.img4-6-1 {
+    background: url(./4-6-1.png) center center / cover no-repeat;
+    overflow: visible;
+    cursor: pointer;
+    position: absolute;
+    width: 3.2rem;
+    height: 0.4rem;
+    left: 8.19rem;
+    top: 1.8rem;
+}
+
+.img4-7 {
+    position: absolute;
+    width: 3.2rem;
+    height: 1.8rem;
+    left: 8.19rem;
+    top: 2.31rem;
+}
+
+
+.img4-7-1 {
+    background: url(./4-7-1.png) center center / cover no-repeat;
+    overflow: visible;
+    cursor: pointer;
+    position: absolute;
+    width: 3.2rem;
+    height: 0.4rem;
+    left: 8.19rem;
+    top: 4.11rem;
+}
+
+.p-4 {
+    position: relative;
+    width: auto;
+    height: auto;
+    left: 0.14rem;
+    top: 0rem;
+    font-size: 0.24rem;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    white-space: pre-wrap;
+    font-weight: normal;
+    font-style: normal;
+    --p-bottom: 0;
+    line-height: 1.3;
+    transform-origin: left center;
+}
+
+.footer {
+    background: url(./5.png) center/cover no-repeat;
+    overflow: visible;
+    position: absolute;
+    width: 100vw;
+    height: 1.4rem;
+    left: 0;
+    bottom: 0;
+    z-index: 2;
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    line-height: 0 !important;
+    font-size: 0 !important;
+
+}
+
+.fp {
+    /* background-color: aliceblue; */
+    position: absolute;
+    width: 100%;
+    height: auto;
+    color: rgb(255, 255, 255);
+    top: 30%;
+    align-items: center;
+    align-content: center;
+    vertical-align: top;
+    text-align: center;
+    font-weight: normal;
+    font-style: normal;
+}
+
+.f-p-1 {
+    position: relative;
+    width: auto;
+    height: auto;
+    line-height: 1.15;
+    display: inline-flex;
+    font-size: 0.22rem;
+    line-height: 1.3;
+    transform-origin: left center;
+}
+
+.f-p-2 {
+    position: relative;
+    width: auto;
+    height: auto;
+    line-height: 1.15;
+    display: inline-flex;
+    font-size: 0.13rem;
+    line-height: 1.3;
+    transform-origin: left center;
+}
